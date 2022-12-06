@@ -32,3 +32,4 @@ class GFButton: UIButton {
         translatesAutoresizingMaskIntoConstraints = false
     }
 }
+ 
