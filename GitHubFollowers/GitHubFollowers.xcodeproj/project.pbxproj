@@ -90,6 +90,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C37BF87129420F0600AE03A8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C376F25E29277AB800D41F85 /* SearchVC.swift */,
+				C3380B8C293F92CE00F8F261 /* FollowerListVC.swift */,
+				C376F26029277AE800D41F85 /* FavoritesListVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C37BF87229420F2100AE03A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C37BF87329420F3200AE03A8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C3994B162940A42D004828BD /* UIViewController+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C37BF87429420F5100AE03A8 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				C322CEBB294089D50041BAEE /* GFBodyLabel.swift */,
+				C3380B8E293F9CCB00F8F261 /* GFTitleLabel.swift */,
+				C3F59D2929303F6400A2E4CC /* GFButton.swift */,
+				C36A46D929321DF300DE1608 /* GFTextField.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		C37BF87529420F7600AE03A8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C3B5D5D029213E06001334FB /* Info.plist */,
+				C3B5D5CD29213E06001334FB /* LaunchScreen.storyboard */,
+				C3B5D5CB29213E06001334FB /* Assets.xcassets */,
+				C3B5D5C229213E06001334FB /* AppDelegate.swift */,
+				C3B5D5C429213E06001334FB /* SceneDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		C3B5D5B629213E06001334FB = {
 			isa = PBXGroup;
 			children = (
@@ -113,20 +161,12 @@
 		C3B5D5C129213E06001334FB /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				C3B5D5C229213E06001334FB /* AppDelegate.swift */,
-				C3B5D5C429213E06001334FB /* SceneDelegate.swift */,
-				C376F25E29277AB800D41F85 /* SearchVC.swift */,
-				C3380B8C293F92CE00F8F261 /* FollowerListVC.swift */,
-				C376F26029277AE800D41F85 /* FavoritesListVC.swift */,
-				C322CEBB294089D50041BAEE /* GFBodyLabel.swift */,
-				C3380B8E293F9CCB00F8F261 /* GFTitleLabel.swift */,
-				C3F59D2929303F6400A2E4CC /* GFButton.swift */,
-				C36A46D929321DF300DE1608 /* GFTextField.swift */,
+				C37BF87229420F2100AE03A8 /* Model */,
+				C37BF87129420F0600AE03A8 /* ViewControllers */,
+				C37BF87429420F5100AE03A8 /* Custom Views */,
+				C37BF87329420F3200AE03A8 /* Extension */,
+				C37BF87529420F7600AE03A8 /* Other */,
 				C322CEBD29408ACE0041BAEE /* GFAlertVC.swift */,
-				C3994B162940A42D004828BD /* UIViewController+Ext.swift */,
-				C3B5D5CB29213E06001334FB /* Assets.xcassets */,
-				C3B5D5CD29213E06001334FB /* LaunchScreen.storyboard */,
-				C3B5D5D029213E06001334FB /* Info.plist */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -459,7 +499,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6GGU4BAHD6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GitHubFollowers/Info.plist;
+				INFOPLIST_FILE = GitHubFollowers/Other/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
@@ -489,7 +529,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6GGU4BAHD6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GitHubFollowers/Info.plist;
+				INFOPLIST_FILE = GitHubFollowers/Other/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
